@@ -1,0 +1,43 @@
+main{
+    background-color: rgb(222,225,224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    h2 {
+        margin-bottom: 10px;
+    }
+    h4{
+        margin-bottom: 30px
+    }
+    .container{
+        .card-group{
+            .card{
+                margin: 0 10px;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+        }
+    }
+    .jumbotron{
+        background-color: white;
+        .lead {
+            color: rgb(0,21,51);
+            font-weight: bold;
+        }
+        ul{
+            font-style: italic;
+        }
+        .candidati {
+            background-color: white;
+            color: rgb(12,217,119);
+            border: 3px solid rgb(12,217,119);
+        }
+        .candidati:hover{
+            background-color:  rgb(12,217,119);
+            color: white;
+        }
+    }
+
+}

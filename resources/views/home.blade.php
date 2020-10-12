@@ -1,7 +1,14 @@
 @extends('layouts.app')
 @section("titolo", "HomePage")
 @section("content")
-    <div class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="jumbotron">
+      <h1 class="display-4 bold">Cambia la tua vita. Entra in Boolean.</h1>
+      <p class="lead">Segui il corso, diventi un web developer e trovi lavoro.</p>
+      <ul>
+          <li>6 mesi di corso full time, online e in diretta</li>
+          <li>Nessuna competenza di programmazione richiesta</li>
+          <li>Se non trovi lavoro ti rimborsiamo</li>
+      </ul>
+      <a class="btn btn-primary btn-lg candidati" href="#" role="button">Candidati ora</a>
     </div>
 @endsection
