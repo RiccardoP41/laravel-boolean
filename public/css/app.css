@@ -10959,6 +10959,11 @@ main .container .card-group .card {
   overflow: hidden;
 }
 
+main .container-show {
+  width: 20%;
+  height: auto;
+}
+
 main .jumbotron {
   background-color: white;
 }
